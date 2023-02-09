@@ -6,7 +6,7 @@ Feel free to report any [issues](https://github.com/jyansir/t2g-former/issues) a
 
 The implementation of T2G-Former in the original paper is `bin/t2g_former.py`.
 
-# 1. Experiment Results
+## 1. Experiment Results
 
 Here are some directories for experiment results.
 
@@ -18,7 +18,7 @@ Here are some directories for experiment results.
 - `ablations`: coming soon ...
 - `figures`: coming soon ...
 
-# 2. Runtime Environment
+## 2. Runtime Environment
 
 - Basic packages: `requirements.txt` contains some basic packages to execute the script, some package versions are strict and will be told in the following instructions.
 
@@ -31,7 +31,7 @@ Here are some directories for experiment results.
 
 - We execute all models (except TabNet TF) on NVIDIA GeForce RTX 3090.
 
-# 3. Datasets
+## 3. Datasets
 
 *LICENSE*: by downloading our dataset you accept licenses of all its components. We do not impose any new restrictions in addition to those licenses. You can find the list of sources in the section "References" of our paper.
 
@@ -39,7 +39,7 @@ Here are some directories for experiment results.
 2. Move the archive to the `data` directory: `mv xxx ./data`
 3. Unpack the archive: `tar -xvf xxx`
 
-# 4. Reproduce Experiments
+## 4. Reproduce Experiments
 
 - `run_experiment`: contains all scripts for our experiments.
     - `run_baselines.sh`: scripts to finetune all models on datasets. If tuned config is not given, it will load a default configuration we provided.
@@ -54,15 +54,15 @@ CUDA_VISIBLE_DEVICES=XXX bash ./run_experiment/run_baselines.sh
 CUDA_VISIBLE_DEVICES=XXX nohup bash ./run_experiment/run_baselines.sh >/dev/null 2>&1 &
 ```
 
-# 5. How to test your model
+## 5. How to test your model
 
 You can test your models by adding them to `bin` directory and `bin/__init__.py`. Keep the same API we used in other models, and execute your model with script `run_baselines.py`.
 
-# 6. Acknowledgement
+## 6. Acknowledgement
 
 We sincerely appreciate the benchmark provided by [Yura52](https://github.com/Yura52/tabular-dl-revisiting-models) for fair comparison and script implementation.
 
-# 7. How to cite T2G-Former
+## 7. How to cite T2G-Former
 
 For now, cite [the Arxiv paper](https://arxiv.org/abs/2211.16887):
 
