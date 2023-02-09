@@ -1,0 +1,22 @@
+{
+    "eval_score": 0.5683544303797469,
+    "n_trial": 43,
+    "dataset": "gesture",
+    "normalization": "quantile",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.11232309844206086,
+        "d": 329,
+        "hidden_dropout": 0.3772472799765224,
+        "n_cross_layers": 8,
+        "n_hidden_layers": 6
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.001033265369948103,
+        "weight_decay": 2.8232432646840165e-05,
+        "patience": 16
+    }
+}

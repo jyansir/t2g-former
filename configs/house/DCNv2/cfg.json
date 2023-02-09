@@ -1,0 +1,22 @@
+{
+    "eval_score": -28657.17766192284,
+    "n_trial": 1,
+    "dataset": "house",
+    "normalization": "quantile",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.2879691648321834,
+        "d": 248,
+        "hidden_dropout": 0.2140450889215188,
+        "n_cross_layers": 7,
+        "n_hidden_layers": 7
+    },
+    "training": {
+        "batch_size": 256,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.00027015009648470654,
+        "weight_decay": 1.1861073801997726e-06,
+        "patience": 16
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "eval_score": 0.870625,
+    "n_trial": 16,
+    "dataset": "churn",
+    "normalization": "quantile",
+    "model": {
+        "activation": "relu",
+        "initialization": "kaiming",
+        "n_heads": 2,
+        "prenormalization": false,
+        "attention_dropout": 0.33522620797270347,
+        "d_token": 26,
+        "n_layers": 3,
+        "residual_dropout": 0.4070946661317005
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0005110789826089104,
+        "weight_decay": 8.650335820288922e-06,
+        "patience": 16
+    }
+}

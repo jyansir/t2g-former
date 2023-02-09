@@ -1,0 +1,24 @@
+{
+    "eval_score": 0.5955696202531645,
+    "n_trial": 33,
+    "dataset": "gesture",
+    "normalization": "quantile",
+    "model": {
+        "activation": "relu",
+        "initialization": "kaiming",
+        "n_heads": 2,
+        "prenormalization": false,
+        "attention_dropout": 0.35263341591508757,
+        "d_token": 60,
+        "n_layers": 4,
+        "residual_dropout": 0.07046908487693548
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0005010734721279594,
+        "weight_decay": 1.92503407096669e-06,
+        "patience": 16
+    }
+}

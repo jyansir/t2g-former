@@ -1,0 +1,24 @@
+{
+    "eval_score": 0.64,
+    "n_trial": 31,
+    "dataset": "eye",
+    "normalization": "standard",
+    "model": {
+        "dropout": 0.29280089589696745,
+        "d_layers": [
+            490,
+            421,
+            421,
+            421,
+            48
+        ]
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.001073538760556039,
+        "weight_decay": 0.00030449608137813456,
+        "patience": 16
+    }
+}

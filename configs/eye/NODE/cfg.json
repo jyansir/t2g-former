@@ -1,0 +1,23 @@
+{
+    "eval_score": 0.684,
+    "n_trial": 41,
+    "dataset": "eye",
+    "normalization": "standard",
+    "model": {
+        "bin_function": "entmoid15",
+        "choice_function": "entmax15",
+        "tree_dim": 3,
+        "depth": 6,
+        "layer_dim": 512,
+        "num_layers": 4
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "lr_n_decays": 0,
+        "optimizer": "adam",
+        "patience": 16
+    }
+}

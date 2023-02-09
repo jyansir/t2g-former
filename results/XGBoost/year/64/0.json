@@ -1,0 +1,48 @@
+{
+    "config": {
+        "output": "results/XGBoost/year/64",
+        "dataset": "year",
+        "normalization": "quantile",
+        "model": "XGBoost",
+        "seed": 64
+    },
+    "final": -8.947437436005751,
+    "train_score": -2.877958471547835,
+    "test_score": -8.540949247242011,
+    "cfg": {
+        "normalization": "quantile",
+        "fit": {
+            "early_stopping_rounds": 50,
+            "verbose": false
+        },
+        "model": {
+            "alpha": 4.156821052157599,
+            "booster": "gbtree",
+            "colsample_bylevel": 0.5158660163078297,
+            "colsample_bytree": 0.8046988288528175,
+            "gamma": 8.943687470645634e-08,
+            "lambda": 0,
+            "learning_rate": 0.07320187376842328,
+            "max_depth": 9,
+            "min_child_weight": 1.75678429701778,
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "subsample": 0.8277066886890202,
+            "tree_method": "gpu_hist"
+        }
+    },
+    "metric": {
+        "train": {
+            "rmse": 2.877958471547835,
+            "score": -2.877958471547835
+        },
+        "val": {
+            "rmse": 8.540949247242011,
+            "score": -8.540949247242011
+        },
+        "test": {
+            "rmse": 8.947437436005751,
+            "score": -8.947437436005751
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "eval_score": 0.8187051812948187,
+    "n_trial": 43,
+    "dataset": "otto",
+    "normalization": "__none__",
+    "model": {
+        "activation": "relu",
+        "normalization": "batchnorm",
+        "d": 419,
+        "d_hidden_factor": 3.9997658875583237,
+        "hidden_dropout": 0.1315668770721177,
+        "n_layers": 3,
+        "residual_dropout": 0.09937761783122842
+    },
+    "training": {
+        "batch_size": 512,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 5.81582552106147e-05,
+        "weight_decay": 2.33200117130952e-05,
+        "patience": 16
+    }
+}

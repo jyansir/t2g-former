@@ -1,0 +1,22 @@
+{
+    "eval_score": 0.6417142857142857,
+    "n_trial": 5,
+    "dataset": "eye",
+    "normalization": "standard",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.45783728103276317,
+        "d": 376,
+        "hidden_dropout": 0.16136520849304503,
+        "n_cross_layers": 3,
+        "n_hidden_layers": 2
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0008136150291380382,
+        "weight_decay": 1.7100214436896997e-05,
+        "patience": 16
+    }
+}

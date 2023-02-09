@@ -1,0 +1,27 @@
+{
+    "eval_score": 0.670253164556962,
+    "n_trial": 80,
+    "dataset": "gesture",
+    "normalization": "quantile",
+    "model": {
+        "activation": "reglu",
+        "initialization": "kaiming",
+        "n_heads": 8,
+        "prenormalization": true,
+        "residual_dropout": 0.0,
+        "attention_dropout": 0.01293254511392027,
+        "d_ffn_factor": 2.0751941472622915,
+        "d_token": 160,
+        "ffn_dropout": 0.08546078480813121,
+        "n_layers": 4
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "weight_decay": 2.239205371748202e-06,
+        "lr": 0.0004237727586002737,
+        "patience": 16,
+        "col_lr": 0.008700850178022612
+    }
+}

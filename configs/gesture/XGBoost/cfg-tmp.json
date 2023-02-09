@@ -1,0 +1,25 @@
+{
+    "eval_score": 0.6891139240506329,
+    "n_trial": 52,
+    "dataset": "gesture",
+    "normalization": "quantile",
+    "fit": {
+        "early_stopping_rounds": 50,
+        "verbose": false
+    },
+    "model": {
+        "alpha": 7.129766098129371e-08,
+        "booster": "gbtree",
+        "colsample_bylevel": 0.5998171954265071,
+        "colsample_bytree": 0.9749722641318059,
+        "gamma": 1.0314985805870437e-07,
+        "lambda": 0.0005531752178939569,
+        "learning_rate": 0.2272651224272047,
+        "max_depth": 9,
+        "min_child_weight": 1.6709599121261903e-07,
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "subsample": 0.7250894968442021,
+        "tree_method": "gpu_hist"
+    }
+}

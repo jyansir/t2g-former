@@ -1,0 +1,24 @@
+{
+    "normalization": "quantile",
+    "model": {
+        "d_embedding": 256,
+        "d_layers": [
+            256,
+            256,
+            256,
+            256,
+            256,
+            256,
+            256,
+            256
+        ],
+        "dropout": 0.1
+    },
+    "training": {
+        "lr": 0.0001,
+        "lr_n_decays": 0,
+        "optimizer": "adamw",
+        "patience": 16,
+        "weight_decay": 1e-05
+    }
+}

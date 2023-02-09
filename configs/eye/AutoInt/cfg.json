@@ -1,0 +1,24 @@
+{
+    "eval_score": 0.6262857142857143,
+    "n_trial": 9,
+    "dataset": "eye",
+    "normalization": "standard",
+    "model": {
+        "activation": "relu",
+        "initialization": "kaiming",
+        "n_heads": 2,
+        "prenormalization": false,
+        "attention_dropout": 0.23638511589308503,
+        "d_token": 50,
+        "n_layers": 2,
+        "residual_dropout": 0.1666828368769846
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0007919497903562168,
+        "weight_decay": 1.829075258199853e-05,
+        "patience": 16
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "config": {
+        "output": "results/XGBoost/california/108",
+        "dataset": "california",
+        "normalization": "quantile",
+        "model": "XGBoost",
+        "seed": 108
+    },
+    "final": -0.4347168848445229,
+    "train_score": -0.14588601490816977,
+    "test_score": -0.44171087790643193,
+    "cfg": {
+        "normalization": "quantile",
+        "fit": {
+            "early_stopping_rounds": 50,
+            "verbose": false
+        },
+        "model": {
+            "alpha": 3.561307653096638e-08,
+            "booster": "gbtree",
+            "colsample_bylevel": 0.9386585839364029,
+            "colsample_bytree": 0.6982640721679332,
+            "gamma": 0.0004073044246625506,
+            "lambda": 0,
+            "learning_rate": 0.01692663318141898,
+            "max_depth": 7,
+            "min_child_weight": 4.938577932813415e-07,
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "subsample": 0.8809410504096843,
+            "tree_method": "gpu_hist"
+        }
+    },
+    "metric": {
+        "train": {
+            "rmse": 0.14588601490816977,
+            "score": -0.14588601490816977
+        },
+        "val": {
+            "rmse": 0.44171087790643193,
+            "score": -0.44171087790643193
+        },
+        "test": {
+            "rmse": 0.4347168848445229,
+            "score": -0.4347168848445229
+        }
+    }
+}

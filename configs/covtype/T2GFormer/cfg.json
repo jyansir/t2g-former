@@ -1,0 +1,27 @@
+{
+    "eval_score": 0.9669112110324649,
+    "n_trial": 41,
+    "dataset": "covtype",
+    "normalization": "quantile",
+    "model": {
+        "activation": "reglu",
+        "initialization": "kaiming",
+        "n_heads": 8,
+        "prenormalization": true,
+        "residual_dropout": 0.0,
+        "d_ffn_factor": 1.3333333333333333,
+        "attention_dropout": 0.03792135421983754,
+        "d_token": 272,
+        "ffn_dropout": 0.004636214607848248,
+        "n_layers": 2
+    },
+    "training": {
+        "batch_size": 1024,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "weight_decay": 2.1498178368071615e-06,
+        "lr": 6.854103492444479e-05,
+        "patience": 16,
+        "col_lr": 0.012616904851997393
+    }
+}

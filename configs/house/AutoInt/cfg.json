@@ -1,0 +1,24 @@
+{
+    "eval_score": -29164.95888482766,
+    "n_trial": 11,
+    "dataset": "house",
+    "normalization": "quantile",
+    "model": {
+        "activation": "relu",
+        "initialization": "kaiming",
+        "n_heads": 2,
+        "prenormalization": false,
+        "attention_dropout": 0.013273716780665606,
+        "d_token": 48,
+        "n_layers": 1,
+        "residual_dropout": 0.1977519431563714
+    },
+    "training": {
+        "batch_size": 256,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.000938151206309101,
+        "weight_decay": 7.085652939576461e-05,
+        "patience": 16
+    }
+}

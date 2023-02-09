@@ -1,0 +1,24 @@
+{
+    "eval_score": -28729.794874007035,
+    "n_trial": 48,
+    "dataset": "house",
+    "normalization": "quantile",
+    "model": {
+        "dropout": 0.11495837083547368,
+        "d_layers": [
+            477,
+            500,
+            500,
+            500,
+            71
+        ]
+    },
+    "training": {
+        "batch_size": 256,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0002925739491915115,
+        "weight_decay": 0.00033787452207511296,
+        "patience": 16
+    }
+}

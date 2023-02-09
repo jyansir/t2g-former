@@ -1,0 +1,25 @@
+{
+    "eval_score": -31420.319605107183,
+    "n_trial": 92,
+    "dataset": "house",
+    "normalization": "quantile",
+    "fit": {
+        "early_stopping_rounds": 50,
+        "verbose": false
+    },
+    "model": {
+        "alpha": 2.166379230847772,
+        "booster": "gbtree",
+        "colsample_bylevel": 0.5374316513088444,
+        "colsample_bytree": 0.8681603472474017,
+        "gamma": 0.05822867218478174,
+        "lambda": 0.19755650273314734,
+        "learning_rate": 0.03509508486227855,
+        "max_depth": 7,
+        "min_child_weight": 2.178213991522239e-05,
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "subsample": 0.5168208965498196,
+        "tree_method": "gpu_hist"
+    }
+}

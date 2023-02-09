@@ -1,0 +1,27 @@
+{
+    "eval_score": 0.6069620253164557,
+    "n_trial": 31,
+    "dataset": "gesture",
+    "normalization": "quantile",
+    "model": {
+        "dropout": 0.07226022455127032,
+        "d_layers": [
+            498,
+            234,
+            234,
+            234,
+            234,
+            234,
+            234,
+            283
+        ]
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0014505599210706715,
+        "weight_decay": 0.00011866934027197978,
+        "patience": 16
+    }
+}

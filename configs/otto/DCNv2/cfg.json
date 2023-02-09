@@ -1,0 +1,22 @@
+{
+    "eval_score": 0.8095141904858095,
+    "n_trial": 36,
+    "dataset": "otto",
+    "normalization": "__none__",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.4774565998789829,
+        "d": 310,
+        "hidden_dropout": 0.25136801292695937,
+        "n_cross_layers": 3,
+        "n_hidden_layers": 5
+    },
+    "training": {
+        "batch_size": 512,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 6.94502944329404e-05,
+        "weight_decay": 3.833119086664445e-06,
+        "patience": 16
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "eval_score": 0.8162811837188163,
+    "n_trial": 22,
+    "dataset": "otto",
+    "normalization": "__none__",
+    "model": {
+        "dropout": 0.05371795899509065,
+        "d_layers": [
+            342,
+            305,
+            68
+        ]
+    },
+    "training": {
+        "batch_size": 512,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0005381214880814797,
+        "weight_decay": 2.038127772323482e-05,
+        "patience": 16
+    }
+}

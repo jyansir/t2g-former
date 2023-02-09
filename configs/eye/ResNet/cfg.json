@@ -1,0 +1,23 @@
+{
+    "eval_score": 0.652,
+    "n_trial": 35,
+    "dataset": "eye",
+    "normalization": "standard",
+    "model": {
+        "activation": "relu",
+        "normalization": "batchnorm",
+        "d": 385,
+        "d_hidden_factor": 1.237388549014245,
+        "hidden_dropout": 0.37193987944886886,
+        "n_layers": 6,
+        "residual_dropout": 0.31596174134502564
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.002713323502657534,
+        "weight_decay": 0.00039841675614027747,
+        "patience": 16
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "normalization": "quantile",
+    "model": {
+        "bin_function": "entmoid15",
+        "choice_function": "entmax15",
+        "d_embedding": 256,
+        "depth": 8,
+        "layer_dim": 512,
+        "num_layers": 3,
+        "tree_dim": 3
+    },
+    "training": {
+        "lr": 0.001,
+        "lr_n_decays": 0,
+        "optimizer": "adam",
+        "patience": 16,
+        "weight_decay": 0.0
+    }
+}

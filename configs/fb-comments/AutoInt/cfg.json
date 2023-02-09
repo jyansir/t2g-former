@@ -1,0 +1,24 @@
+{
+    "eval_score": -5.821341365182851,
+    "n_trial": 11,
+    "dataset": "fb-comments",
+    "normalization": "quantile",
+    "model": {
+        "activation": "relu",
+        "initialization": "kaiming",
+        "n_heads": 2,
+        "prenormalization": false,
+        "attention_dropout": 0.013862080190740074,
+        "d_token": 64,
+        "n_layers": 4,
+        "residual_dropout": 0.0008640081757459173
+    },
+    "training": {
+        "batch_size": 512,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 6.0273469030039156e-05,
+        "weight_decay": 1.0119109142724628e-06,
+        "patience": 16
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "eval_score": -5.3037247669347085,
+    "n_trial": 96,
+    "dataset": "fb-comments",
+    "normalization": "quantile",
+    "fit": {
+        "early_stopping_rounds": 50,
+        "verbose": false
+    },
+    "model": {
+        "alpha": 1.7086471601154124e-07,
+        "booster": "gbtree",
+        "colsample_bylevel": 0.7455382468093197,
+        "colsample_bytree": 0.6868610689405223,
+        "gamma": 4.677372164119556e-05,
+        "lambda": 0.04003979497047413,
+        "learning_rate": 0.033369733400411904,
+        "max_depth": 9,
+        "min_child_weight": 2.2544656978490885,
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "subsample": 0.9847123696105042,
+        "tree_method": "gpu_hist"
+    }
+}

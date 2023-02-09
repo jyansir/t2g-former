@@ -1,0 +1,41 @@
+{
+    "eval_score": -5.751034610576246,
+    "n_trial": 11,
+    "dataset": "fb-comments",
+    "normalization": "quantile",
+    "model": {
+        "dropout": 0.000845300771389966,
+        "d_embedding": 69,
+        "d_layers": [
+            944,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            391,
+            24
+        ]
+    },
+    "training": {
+        "batch_size": 512,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 1.0203733296474202e-05,
+        "weight_decay": 0.00019813696316400722,
+        "patience": 16
+    }
+}

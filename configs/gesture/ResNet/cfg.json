@@ -1,0 +1,23 @@
+{
+    "eval_score": 0.629746835443038,
+    "n_trial": 25,
+    "dataset": "gesture",
+    "normalization": "quantile",
+    "model": {
+        "activation": "relu",
+        "normalization": "batchnorm",
+        "d": 292,
+        "d_hidden_factor": 3.4667514277267246,
+        "hidden_dropout": 0.21836318705742955,
+        "n_layers": 5,
+        "residual_dropout": 0.1759834000709878
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0015752680928566318,
+        "weight_decay": 1.5597369959689423e-05,
+        "patience": 16
+    }
+}

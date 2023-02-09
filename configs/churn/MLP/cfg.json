@@ -1,0 +1,27 @@
+{
+    "eval_score": 0.8675,
+    "n_trial": 46,
+    "dataset": "churn",
+    "normalization": "quantile",
+    "model": {
+        "dropout": 0.28575658855839514,
+        "d_embedding": 307,
+        "d_layers": [
+            141,
+            325,
+            325,
+            325,
+            325,
+            325,
+            356
+        ]
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0003674679741065295,
+        "weight_decay": 0.00019286797939906382,
+        "patience": 16
+    }
+}

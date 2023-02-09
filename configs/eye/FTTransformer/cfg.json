@@ -1,0 +1,26 @@
+{
+    "eval_score": 0.7497142857142857,
+    "n_trial": 35,
+    "dataset": "eye",
+    "normalization": "standard",
+    "model": {
+        "activation": "reglu",
+        "initialization": "kaiming",
+        "n_heads": 8,
+        "prenormalization": true,
+        "attention_dropout": 0.37408976177128916,
+        "d_ffn_factor": 1.0306845452970812,
+        "d_token": 104,
+        "ffn_dropout": 0.04072534548549858,
+        "n_layers": 4,
+        "residual_dropout": 0.045538652047177185
+    },
+    "training": {
+        "batch_size": 128,
+        "eval_batch_size": 8192,
+        "optimizer": "adamw",
+        "lr": 0.0009246442114773791,
+        "weight_decay": 2.843943094321186e-06,
+        "patience": 16
+    }
+}

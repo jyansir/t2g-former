@@ -1,0 +1,124 @@
+{
+    "config": {
+        "output": "results/XGBoost/higgs-small/152",
+        "dataset": "higgs-small",
+        "normalization": "quantile",
+        "model": "XGBoost",
+        "seed": 152
+    },
+    "final": 0.7255991840897501,
+    "train_score": 0.8318273812369524,
+    "test_score": 0.7288373278939316,
+    "cfg": {
+        "normalization": "quantile",
+        "fit": {
+            "early_stopping_rounds": 50,
+            "verbose": false,
+            "eval_metric": "error"
+        },
+        "model": {
+            "alpha": 8.950302384061526,
+            "booster": "gbtree",
+            "colsample_bylevel": 0.7765021933636111,
+            "colsample_bytree": 0.6182593106549488,
+            "gamma": 0,
+            "lambda": 0,
+            "learning_rate": 0.03939004634630858,
+            "max_depth": 10,
+            "min_child_weight": 2.801624613343774e-05,
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "subsample": 0.9541233671638222,
+            "tree_method": "gpu_hist"
+        }
+    },
+    "metric": {
+        "train": {
+            "0": {
+                "precision": 0.8276907180988462,
+                "recall": 0.812385910350889,
+                "f1-score": 0.8199669037992392,
+                "support": 29582
+            },
+            "1": {
+                "precision": 0.8353897259461384,
+                "recall": 0.8491663903041997,
+                "f1-score": 0.842221723854377,
+                "support": 33169
+            },
+            "accuracy": 0.8318273812369524,
+            "macro avg": {
+                "precision": 0.8315402220224923,
+                "recall": 0.8307761503275444,
+                "f1-score": 0.8310943138268081,
+                "support": 62751
+            },
+            "weighted avg": {
+                "precision": 0.8317602690428444,
+                "recall": 0.8318273812369524,
+                "f1-score": 0.8317303836865536,
+                "support": 62751
+            },
+            "roc_auc": 0.9115886982345648,
+            "score": 0.8318273812369524
+        },
+        "val": {
+            "0": {
+                "precision": 0.7197817571348629,
+                "recall": 0.695646295294754,
+                "f1-score": 0.7075082508250824,
+                "support": 7396
+            },
+            "1": {
+                "precision": 0.7364168618266979,
+                "recall": 0.7584418716835504,
+                "f1-score": 0.7472671102661597,
+                "support": 8292
+            },
+            "accuracy": 0.7288373278939316,
+            "macro avg": {
+                "precision": 0.7280993094807804,
+                "recall": 0.7270440834891522,
+                "f1-score": 0.727387680545621,
+                "support": 15688
+            },
+            "weighted avg": {
+                "precision": 0.7285743558156824,
+                "recall": 0.7288373278939316,
+                "f1-score": 0.7285230686785636,
+                "support": 15688
+            },
+            "roc_auc": 0.8088042515647759,
+            "score": 0.7288373278939316
+        },
+        "test": {
+            "0": {
+                "precision": 0.713103904698875,
+                "recall": 0.6992969172525689,
+                "f1-score": 0.7061329255638688,
+                "support": 9245
+            },
+            "1": {
+                "precision": 0.7363429438543247,
+                "recall": 0.7490593342981187,
+                "f1-score": 0.7426467071595964,
+                "support": 10365
+            },
+            "accuracy": 0.7255991840897501,
+            "macro avg": {
+                "precision": 0.7247234242765999,
+                "recall": 0.7241781257753438,
+                "f1-score": 0.7243898163617326,
+                "support": 19610
+            },
+            "weighted avg": {
+                "precision": 0.725387058235144,
+                "recall": 0.7255991840897501,
+                "f1-score": 0.7254325352650272,
+                "support": 19610
+            },
+            "roc_auc": 0.8031157139737597,
+            "score": 0.7255991840897501
+        }
+    }
+}
