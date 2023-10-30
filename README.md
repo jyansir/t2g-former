@@ -1,8 +1,8 @@
 # T2G-Former
 
-This is the implementation and experiment results of the AAAI 2023 oral paper *T2G-FORMER: Organizing Tabular Features into Relation Graphs Promotes Heterogeneous Feature Interaction* [link](https://arxiv.org/abs/2211.16887)
+This is the implementation and experiment results of the AAAI 2023 oral paper *T2G-FORMER: Organizing Tabular Features into Relation Graphs Promotes Heterogeneous Feature Interaction* (see [Arxiv](https://arxiv.org/abs/2211.16887) version for the full appendix)
 
-Feel free to report any [issues](https://github.com/jyansir/t2g-former/issues) and post [questions](https://github.com/t2g-former/discussions).
+Feel free to report any [issues or questions](https://github.com/jyansir/t2g-former/issues).
 
 The implementation of T2G-Former in the original paper is `bin/t2g_former.py`.
 
@@ -35,9 +35,9 @@ Here are some directories for experiment results.
 
 *LICENSE*: by downloading our dataset you accept licenses of all its components. We do not impose any new restrictions in addition to those licenses. You can find the list of sources in the section "References" of our paper.
 
-1. Download the data: `coming soon ...`
-2. Move the archive to the `data` directory: `mv xxx ./data`
-3. Unpack the archive: `tar -xvf xxx`
+1. Download the data from this [link](https://drive.google.com/uc?export=download&id=1Ph0KBXqSGCClx3dO7C6uf2yws7Q8hNN7)(~240M)
+2. Unpack the archive to the `data` directory: `tar -zxvf data-t2g.tar.gz -C ./data` (`mkdir data` if not exist)
+3. Configure your global path to the project folder (variable `PROJ` in `lib/env.py`) 
 
 ## 4. Reproduce Experiments
 
@@ -60,17 +60,15 @@ You can test your models by adding them to `bin` directory and `bin/__init__.py`
 
 ## 6. Acknowledgement
 
-We sincerely appreciate the benchmark provided by [Yura52](https://github.com/Yura52/tabular-dl-revisiting-models) for fair comparison and script implementation.
+We sincerely appreciate the benchmark provided by Yura52‘s [work1](https://github.com/Yura52/tabular-dl-revisiting-models) and [work2](https://github.com/yandex-research/tabular-dl-num-embeddings) for fair comparison and script implementation.
 
 ## 7. How to cite T2G-Former
 
-For now, cite [the Arxiv paper](https://arxiv.org/abs/2211.16887):
-
 ```
-@article{yan2022t2g,
-  title={T2G-Former: Organizing Tabular Features into Relation Graphs Promotes Heterogeneous Feature Interaction},
-  author={Yan, Jiahuan and Chen, Jintai and Wu, Yixuan and Chen, Danny Z and Wu, Jian},
-  journal={arXiv preprint arXiv:2211.16887},
-  year={2022}
+@inproceedings{yan2023t2g,
+  title={{T2G-FORMER:} Organizing Tabular Features into Relation Graphs Promotes Heterogeneous Feature Interaction},
+  author={Yan, Jiahuan and Chen, Jintai and Wu, Yixuan and Chen, Danny Z. and Wu, Jian},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2023}
 }
 ```
