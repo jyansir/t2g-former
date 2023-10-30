@@ -68,7 +68,7 @@ We sincerely appreciate the benchmark provided by Yura52‘s [work1](https://git
 @inproceedings{yan2023t2g,
   title={{T2G-FORMER:} Organizing Tabular Features into Relation Graphs Promotes Heterogeneous Feature Interaction},
   author={Yan, Jiahuan and Chen, Jintai and Wu, Yixuan and Chen, Danny Z. and Wu, Jian},
-  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2023}
 }
 ```
