@@ -184,10 +184,10 @@ class MultiheadGEAttention(nn.Module):
         
         if not self.frozen:
             # using `Straight-through` tirck for non-differentiable operation
-            adj = (adj_probs > 0.5).float() - adj_probs.detach() + adj_probs
+            adj = (adj_probs > self.threshold).float() - adj_probs.detach() + adj_probs
         else:
             # frozen graph topology: no gradient
-            adj = (adj_probs > 0.5).float()
+            adj = (adj_probs > self.threshold).float()
         return adj
 
     def forward(
